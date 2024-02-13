@@ -1,0 +1,67 @@
+body {
+    background-color: var(--background-color);
+    height: 100vh;
+    font-size: 18px;
+}
+
+
+hr {
+    width: 100%;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    width: 330px;
+    height: 350px;
+    border-radius: 10px;
+    gap: 25px;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+
+.card .foto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    height: 100%;
+}
+
+.card .foto img {
+    border-radius: 50%;
+    margin-top: 20px;
+    border: rgb(255, 255, 255) solid 7px;
+}
+
+.card .contadores {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.contadores .info .digitos
+.card .contadores p {
+    font-weight: 700;
+}
+
+.card .contadores .idade
+.card .contadores .city
+.foto .info .sub-text {
+    color: var(--text-color);
+} 
