@@ -1,0 +1,42 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.frames {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.frames .frame {
+  width: 335px;
+  height: 431px;
+  position: relative;
+}
+
+.frames .frame img {
+  width: 100%;
+}
+
+.frames .frame .info-autor {
+  position: absolute;
+  bottom: 40px;
+  left: 20px;
+}
+
+.frames .frame .info-autor .titulo {
+  font-size: 30px;
+  margin-bottom: 9px;
+}
+
+.frames .frame .info-autor .subtitulo {
+  font-size: 17px;
+  font-weight: 300;
+}
