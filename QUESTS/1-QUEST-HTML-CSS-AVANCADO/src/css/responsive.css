@@ -1,50 +1,152 @@
-/* The designs were created to the following widths:
-- Mobile: 375px
-- Desktop: 1440px */
-
-@media (max-width: 1287px) {
-  .container{
-    display: grid;
-    flex-direction: column;
-  }
-  .container .image-left img {
-    margin-top:45px 25px;
-    display: grid;
-    max-width: 80vh;
-    justify-content: center;
-  
-    }
-
-  .container .info-rigth {
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    }
-
-    
-.container .info-rigth h1{
-  justify-content: center;
-  font-size: 35px;
-  color: #fff;
-}
-
-.container .info-rigth p{
-  justify-content: center;
-  display: grid;
-  align-items: center;
-}
-
-    .container .info-rigth button {
-      display: grid;
-      align-items: center;
-      margin: 30px auto;
-    }
-
-    .social nav {
+@media (max-width: 1331px) {
+  main .container {
       display: flex;
-      justify-content: center;
-      margin-top: 60px;
-    }
+  }
 
+  main .container img {
+      width: 100%;
+  }
+
+  main .container .main-info {
+      text-align: center;
+      align-items: center;
+      width: 40%;
+  }
+}
+
+@media (max-width: 1130px){
+  main .container .main-info .btn{
+      width: 50%;
+  }
+
+  main .container .main-info {
+      margin: 20px 20px;
+      width: 60%;
+  }
+
+  main .container img {
+      margin-left: 30px;
+  }
+}
+
+@media(max-width: 936px){
+  main .container{
+      display: flex;
+      flex-direction: column;
+  }
+
+  main .container img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 50px;
+    width: 60%;
+
+  }
+
+  main .container .main-info {
+      width: 20%;
+  }
+}
+
+@media (max-width: 1024px) {
+  main .container .main-info {
+      width: 60%;
+  }
+
+  main .container .main-info .btn {
+      width: 40%;
+  }
+
+  footer {
+      width: 50%;
+  }
+
+  footer .social-icon {
+      margin-right: 30px;
+  }
+}
+
+@media (max-width: 688px){
+  body {
+      background-image: url('../../images/bg-mobile.svg');
+      background-repeat: no-repeat;
+      background-position: top center;
+      background-size: contain;
+  }
+  footer {
+    margin-top: 67px;
+  }
+}
+
+@media (max-width: 500px) {
+  html{
+      overflow-y: hidden;
+  }
+
+  body {
+    background-image: url('../../images/bg-mobile.svg');
+      background-repeat: no-repeat;
+      background-position: top center;
+      background-size: contain;
+  }
+
+  header {
+      position: relative;
+      left: -50px;
+      top: -20px;
+  }
+
+  header img {
+      width: 200px;
+  }
+
+  main .container img {
+      width: 60%;
+      margin-right: 90px;
+  }
+
+  main .container {
+      gap: 5px;
+  }
+
+  main .container .main-info {
+      width: 90%;
+  }
+
+  main .container .main-info h1 {
+      font-size: 3rem;
+  }
+
+  main .container .main-info p {
+      font-size: 1.6rem;
+      width: 80%;
+  }
+
+  main .container .main-info .btn {
+      width: 70%;
+  }
+
+  footer {
+      width: 50%;
+      position: relative;
+      top: -40px;
+      left: -10px;
+  }
+
+  footer .social-icon {
+      padding: 20px;
+      font-size: 20px;
+  }
+}
+
+@media (max-width: 412px){
+  html{
+      overflow-y: visible;
+  }
+
+  footer{
+      top: -60px;
+  }
 }
