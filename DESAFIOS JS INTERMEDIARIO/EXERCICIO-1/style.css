@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+box-sizing: border-box;
+}
+body {
+  background-color: slategrey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.quadrado-vermelho, .quadrado-azul, .quadrado-amarelo{
+  width: 100px;
+  height: 100px;
+}
+
+.quadrado-vermelho {
+  background-color: red;
+}
+
+.quadrado-azul {
+  background-color: blue;
+}
