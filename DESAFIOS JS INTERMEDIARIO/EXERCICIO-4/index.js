@@ -4,10 +4,9 @@ document.addEventListener("DOMContentLoaded", function () {
   inputs.forEach(function (input) {
     input.addEventListener("input", function () {
       if (input.value !== "") {
-        input.style.borderColor = "green";
-        input.style.borderWidth = "5px";
+        input.classList.add("inputPreenchido");
       } else {
-        input.style.borderColor = "";
+        input.classList.remove("inputPreenchido");
       }
     });
   });
