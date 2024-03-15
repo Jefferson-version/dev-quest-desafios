@@ -1,0 +1,11 @@
+body {
+
+  font-size: 30px;
+}
+/* .inputSelecionado {
+} */
+
+.inputPreenchido {
+  border-width: 30px;
+  border-color: rgb(4, 128, 14);
+}
