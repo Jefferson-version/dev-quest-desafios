@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quest 2 Formulário DevQuest</title>
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+  </head>
+
+  <body>
+    <main class="container">
+      <div class="description">
+        <h1>
+          COM DÚVIDAS?
+          <br>
+          NOS ENVIE UMA MENSAGEM!
+        </h1>
+        <p class="p-description">Caso tenha ficado com alguma dúvida, basta nos
+          enviar uma mensagem e entraremos em contato em menos de 24 horas.</p>
+      </div>
+      <form class="form" id="formField">
+        <fieldset>
+          <div class="inputBox">
+            <input class="inputUser inputUserRequired" type="text" name="name"
+              placeholder="Nome Completo *">
+          </div>
+
+          <div class="inputBox">
+            <input class="inputUser inputUserRequired" type="email" name="email"
+              placeholder="Email *">
+          </div>
+
+          <div class="inputBox">
+            <input class="inputUser inputUserRequired" type="tel" name="phone"
+              placeholder="Telefone *">
+          </div>
+
+          <div class="inputBox">
+            <textarea class="textArea inputUserRequired" name="message"
+              id="messae" cols="30" rows="5" placeholder="Mensagem*"></textarea>
+          </div>
+          <p>* Campos Obrigatórios</p>
+          <button id="submitId" class="submitBtn" type="submit">Enviar</button>
+        </fieldset>
+      </form>
+    </main>
+
+    <script src="./SRC/js/form.js"></script>
+  </body>
+
+</html>
